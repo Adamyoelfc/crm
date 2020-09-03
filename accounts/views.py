@@ -19,6 +19,7 @@ from django.contrib.auth.models import Group
 def home(req):
 
     orders = Order.objects.all()
+    orders_firts = orders[:5]
     customers = Customer.objects.all()
 
     total_customer = customers.count()
@@ -26,7 +27,7 @@ def home(req):
     delivered = orders.filter(status="Delivery").count()
     pending = orders.filter(status='Pending').count()
 
-    contex = {"orders": orders, "customers": customers,
+    contex = {"orders": orders,'orders_firts': orders_firts , "customers": customers,
               'total_customer': total_customer, "total_orders": total_orders, 'delivered': delivered, 'pending': pending}
 
     return render(req, 'accounts/dashboard.html', contex)
@@ -117,7 +118,7 @@ def customer(req, pk_test):
 @allowed_user(allowed_roles=['admin'])
 def createOrder(req, pk):
     OrderFormSet = inlineformset_factory(
-        Customer, Order, fields=('product', 'status'), extra=10)
+        Customer, Order, fields=('product', 'status'), extra=5)
     customer = Customer.objects.get(id=pk)
     formset = OrderFormSet(queryset=Order.objects.none(), instance=customer)
     # form = OrderFrom(initial={"customer": customer})
@@ -173,3 +174,6 @@ def deleteOrder(req, pk):
 
     context = {'item': order}
     return render(req, 'accounts/delete.html', context)
+
+
+

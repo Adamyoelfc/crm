@@ -15,6 +15,7 @@
                 <a id="" class="btn btn-primary" href="#" role="button">Create Customer</a>
                 <table class="table table-sm">
                     <tr>
+                        <th></th>
                         <th>Customer</th>
                         <th>Phone</th>
                     </tr>
@@ -44,7 +45,7 @@
                        <th>Update</th>
                        <th>Remove</th>
                    </tr>
-                    {% for order in orders %}
+                    {% for order in orders_firts %}
 
                         <tr>
                             <td>{{order.product}} </td>

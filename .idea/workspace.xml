@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed741f94-be6d-4369-a785-50b0a4f40436" name="Default Changelist" comment="" />
+    <list default="true" id="ed741f94-be6d-4369-a785-50b0a4f40436" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/order_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/order_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gs5pq7ISJY66nJWrX7OFRBGxVp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,6 +40,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="file.status.colors" />
@@ -75,6 +89,7 @@
       <updated>1598890645032</updated>
       <workItem from="1598890649789" duration="10720000" />
       <workItem from="1598969892418" duration="15500000" />
+      <workItem from="1599149858631" duration="2770000" />
     </task>
     <servers />
   </component>
@@ -86,13 +101,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="324" y="132" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599059498922" />
+    <state x="82" y="0" key="CommitChangelistDialog2" timestamp="1599152737410">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state x="82" y="0" key="CommitChangelistDialog2/0.0.1304.768@0.0.1304.768" timestamp="1599152737410" />
     <state x="261" y="15" key="SettingsEditor" timestamp="1599068542084">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="261" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599068542084" />
-    <state x="378" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1598969919836">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="361" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1599149863154">
+      <screen x="0" y="0" width="1304" height="768" />
     </state>
+    <state x="361" y="199" key="com.intellij.ide.util.TipDialog/0.0.1304.768@0.0.1304.768" timestamp="1599149863154" />
     <state x="378" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598969919836" />
     <state x="447" y="229" width="708" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1598981190553">
       <screen x="0" y="0" width="1366" height="728" />
