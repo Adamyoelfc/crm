@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed741f94-be6d-4369-a785-50b0a4f40436" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMA/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRMA/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <updated>1598890645032</updated>
       <workItem from="1598890649789" duration="10720000" />
       <workItem from="1598969892418" duration="15500000" />
-      <workItem from="1599149858631" duration="4646000" />
+      <workItem from="1599149858631" duration="4931000" />
     </task>
     <task id="LOCAL-00001" summary="pycharm commit test">
       <created>1599152746888</created>
@@ -92,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599152746888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="database change">
+      <created>1599155200520</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599155200520</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,25 +106,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pycharm commit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="pycharm commit test" />
+    <MESSAGE value="database change" />
+    <option name="LAST_COMMIT_MESSAGE" value="database change" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="244" y="43" key="#Notifications" timestamp="1599155275178">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state x="244" y="43" key="#Notifications/0.0.1304.768@0.0.1304.768" timestamp="1599155275178" />
     <state x="324" y="132" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1599059498922">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="324" y="132" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599059498922" />
-    <state x="82" y="0" key="CommitChangelistDialog2" timestamp="1599152737410">
+    <state x="82" y="0" key="CommitChangelistDialog2" timestamp="1599155197477">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state x="82" y="0" key="CommitChangelistDialog2/0.0.1304.768@0.0.1304.768" timestamp="1599152737410" />
+    <state x="82" y="0" key="CommitChangelistDialog2/0.0.1304.768@0.0.1304.768" timestamp="1599155197477" />
     <state x="261" y="15" key="SettingsEditor" timestamp="1599068542084">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="261" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599068542084" />
-    <state x="244" y="118" key="Vcs.Push.Dialog.v2" timestamp="1599152764884">
+    <state x="244" y="118" key="Vcs.Push.Dialog.v2" timestamp="1599155210495">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state x="244" y="118" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1599152764884" />
+    <state x="244" y="118" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1599155210495" />
     <state x="361" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1599149863154">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
