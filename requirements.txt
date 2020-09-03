@@ -52,7 +52,7 @@ pylint==2.5.3
 pyparsing==2.4.7
 pyrsistent==0.16.0
 python-dateutil==2.8.1
-pytz @ file:///D:/%21%21Web/Desoft/Python%20Avanzado/Instaladores/04%20Bibliotecas/pytz-2019.3-py2.py3-none-any.whl
+pytz==2020.1
 pywin32==228
 pywinpty==0.5.7
 pyzmq==19.0.2
