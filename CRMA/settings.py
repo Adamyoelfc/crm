@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'CRMA.wsgi.application'
 #         'ENGINE': 'django.db.backends.postgresql',
 #         'NAME': 'DEMO_TEST',
 #         'USER': 'postgres',
-#         'PASSWORD': 'ASDasd123**',
+#         'PASSWORD': '*********',
 #         'HOST': 'localhost',
 #         'PORT': '5432',
 #
@@ -98,9 +98,7 @@ DATABASES = {
     }
 }
 
-import dj_database_url
-db_form_env = dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(db_form_env)
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -159,7 +157,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'adamyoelfctest@gmail.com'
-EMAIL_HOST_PASSWORD = 'AsdAsd123**'
+EMAIL_HOST_USER = '*******'
+EMAIL_HOST_PASSWORD = '*******'
 
 
