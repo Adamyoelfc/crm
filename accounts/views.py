@@ -16,7 +16,6 @@ from django.contrib.auth.models import Group
 
 
 @login_required(login_url='login')
-@admin_only
 def home(req):
 
     orders = Order.objects.all()
