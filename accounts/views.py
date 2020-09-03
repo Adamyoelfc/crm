@@ -12,6 +12,8 @@ from .decorators import unauthenticated_user, allowed_user, admin_only
 from django.contrib.auth.models import Group
 # Create your views here.
 
+# Test
+
 
 @login_required(login_url='login')
 @admin_only
