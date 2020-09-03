@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="db" uuid="1a8b3e74-81ce-44ca-9ad4-0866cdbe8797">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\!!Web\Desoft\Curso Django Desoft\Curso Django\Video Tutoriales\Django (3.0) Crash Course _ Customer Management App\CRMA\db.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://F:/Plugin SQLite/sqlite-jdbc-3.16.1.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>

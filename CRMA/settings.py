@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'CRMA.wsgi.application'
 #         'ENGINE': 'django.db.backends.postgresql',
 #         'NAME': 'DEMO_TEST',
 #         'USER': 'postgres',
-#         'PASSWORD': '*********',
+#         'PASSWORD': 'WTFadam95**',
 #         'HOST': 'localhost',
 #         'PORT': '5432',
 #

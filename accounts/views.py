@@ -76,7 +76,7 @@ def registerPage(req):
     if req.method == "POST":
         form = CreateUserForm(req.POST)
         if form.is_valid():
-            user = form.save()
+            user, email = form.save()
             username = form.cleaned_data.get('username')
             group = Group.objects.get(name='customer')
 
@@ -114,6 +114,22 @@ def customer(req, pk_test):
     return render(req, 'accounts/customer.html', context)
 
 
+def update_customer(req, pk):
+    customer = Customer.objects.get(id=pk)
+    form = CustomerForm(instance=customer)
+
+    if req.method == 'POST':
+        form = CustomerForm(req.POST, req.FILES, instance=customer)
+        if form.is_valid():
+            form.save()
+            return redirect('customer')
+
+    context = {'form': form, 'customer': customer}
+    return render(req, 'accounts/update_customer.html', context)
+
+
+
+
 @login_required(login_url='login')
 @allowed_user(allowed_roles=['admin'])
 def createOrder(req, pk):
@@ -147,7 +163,7 @@ def updateOrder(req, pk):
             form.save()
             return redirect('/')
     context = {'form': form}
-    return render(req, 'accounts/order_form.html', context)
+    return render(req, 'accounts/update_order.html', context)
 
 @login_required(login_url='login')
 @allowed_user(allowed_roles=['customer'])
