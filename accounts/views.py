@@ -76,7 +76,7 @@ def registerPage(req):
     if req.method == "POST":
         form = CreateUserForm(req.POST)
         if form.is_valid():
-            user, email = form.save()
+            user = form.save()
             username = form.cleaned_data.get('username')
             group = Group.objects.get(name='customer')
 
@@ -122,7 +122,7 @@ def update_customer(req, pk):
         form = CustomerForm(req.POST, req.FILES, instance=customer)
         if form.is_valid():
             form.save()
-            return redirect('customer')
+            return redirect('/update_customer/' + pk)
 
     context = {'form': form, 'customer': customer}
     return render(req, 'accounts/update_customer.html', context)

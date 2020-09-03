@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed741f94-be6d-4369-a785-50b0a4f40436" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/update_customer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/update_order.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMA/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRMA/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/status.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/status.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -114,7 +105,7 @@
       <updated>1598890645032</updated>
       <workItem from="1598890649789" duration="10720000" />
       <workItem from="1598969892418" duration="15500000" />
-      <workItem from="1599149858631" duration="15932000" />
+      <workItem from="1599149858631" duration="18006000" />
     </task>
     <task id="LOCAL-00001" summary="pycharm commit test">
       <created>1599152746888</created>
@@ -186,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599158985858</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="style">
+      <created>1599168018085</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599168018085</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +194,8 @@
     <MESSAGE value="pycharm commit test" />
     <MESSAGE value="database change" />
     <MESSAGE value="requirements update" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirements update" />
+    <MESSAGE value="style" />
+    <option name="LAST_COMMIT_MESSAGE" value="style" />
   </component>
   <component name="WindowStateProjectService">
     <state x="244" y="43" key="#Notifications" timestamp="1599155275178">
@@ -207,10 +206,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="324" y="132" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599059498922" />
-    <state x="82" y="0" key="CommitChangelistDialog2" timestamp="1599158983667">
+    <state x="82" y="0" key="CommitChangelistDialog2" timestamp="1599168013980">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state x="82" y="0" key="CommitChangelistDialog2/0.0.1304.768@0.0.1304.768" timestamp="1599158983667" />
+    <state x="82" y="0" key="CommitChangelistDialog2/0.0.1304.768@0.0.1304.768" timestamp="1599168013980" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1599159682552">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
@@ -219,10 +218,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="261" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599068542084" />
-    <state x="244" y="118" key="Vcs.Push.Dialog.v2" timestamp="1599158988277">
+    <state x="244" y="118" key="Vcs.Push.Dialog.v2" timestamp="1599168020979">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state x="244" y="118" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1599158988277" />
+    <state x="244" y="118" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1599168020979" />
     <state x="361" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1599149863154">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
